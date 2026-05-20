@@ -1,0 +1,33 @@
+html {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #ffffff;
+}
+
+.list {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+gap: 5px;
+list-style: none;
+}
+
+.top
+{
+  border: 3px solid #6900ff;
+  background-color: #403c3c;
+   border-radius: 10px;
+}
+
+.block {
+  width: 180px;
+  height: 180px;
+  background-color: #403c3c;
+  border: 3px solid #6900ff;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
